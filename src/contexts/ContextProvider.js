@@ -18,3 +18,5 @@ export const ContextProvider = ({ children }) => {
 
   return <StateContext.Provider.Provider value={{activeMenu}}>{children}</StateContext.Provider.Provider>;
 };
+
+export const useStateContext = () => useContext(StateContext);
