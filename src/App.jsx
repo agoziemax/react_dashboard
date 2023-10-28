@@ -14,10 +14,10 @@ function App() {
 
 
   return (
-    <div>
+    <div className='border '>
       <BrowserRouter>
-        <div className='flex relative dark:bg-main-dark-bg'>
-          <div className='fixed right-4 bottom-4' style={{ zIndex: '1000' }}>
+        <div className='flex relative dark:bg-main-dark-bg '>
+          <div className='fixed right-4 bottom-4  ' style={{ zIndex: '1000' }}>
             <TooltipComponent content='Settings' position='top'>
               <button
                 type='button'
@@ -33,7 +33,7 @@ function App() {
               <Sidebar />
             </div>
           ) : (
-            <div className='w-0 dark:bg-secondary-dark-bg'>
+            <div className='w-0 dark:bg-secondary-dark-bg '>
               <Sidebar />
             </div>
           )}
