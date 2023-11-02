@@ -39,7 +39,7 @@ module.exports = {
         590: '590px',
       },
       backgroundImage: {
-        'hero-pattern': "url('https://i.ibb.co/d7nghTB/Personal-finance.png')",
+        'hero-pattern': "url('https://i.ibb.co/kx3H7y6/undraw-investment-data-re-sh9x.jpg')",
       },
     },
   },
