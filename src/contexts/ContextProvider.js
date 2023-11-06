@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState } from 'react';
 
 const StateContext = createContext();
 
+// this object is used to capture the dynamics of state changes when it comes to how some icons are rendered. It sets the initial content of these icons to false, until they are clicked.
 const initialState = {
   chat: false,
   cart: false,
@@ -28,6 +29,9 @@ export const ContextProvider = ({ children }) => {
   };
 
   const handleClick = (clicked) => setIsClicked({ ...initialState, [clicked]: true });
+//   const handleClick = (clicked) => setIsClicked((prevState) => ({ ...prevState, [clicked]: true }));
+console.log(isClicked)
+
 
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
