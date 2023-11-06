@@ -160,7 +160,7 @@ const Ecommerce = () => {
         <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl'>
           <div className='flex justify-between items-center gap-2'>
             <p className='text-xl font-semibold'>Recent Transactions</p>
-            {/* <DropDown currentMode={currentMode} /> */}
+            <DropDownListComponent currentMode={currentMode} />
           </div>
           <div className='mt-10 w-72 md:w-400'>
             {recentTransactions.map((item) => (
